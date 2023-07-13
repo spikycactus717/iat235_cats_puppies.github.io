@@ -1,0 +1,87 @@
+/*
+Welcome this tutorial file was created for Simon Fraser University in the Coronavirus Summer of 2022
+
+selector{
+	property:value;
+	property:value;
+
+}
+
+*/
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.25rem;
+	margin: 1rem;
+	background-color: rgb(220, 220, 220);
+}
+
+h1{
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+h2{
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+
+h3{
+	font-size: 1.6rem;
+	margin-bottom: 0;
+}
+
+p, ol, ul{
+	font-size: 1rem;
+}
+
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+figure{
+	margin: 0;
+}
+
+figcaption{
+	font-style: italic;
+}
+
+a{
+	color: rgb(200, 0, 0);
+	text-decoration: none;
+
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+
+a:hover, a:focus, a:active{
+	color: rgb(50, 0, 0);
+	text-decoration: underline;
+}
+
+.nav-main-item{
+	display: inline-block;
+	background-color: rgb(250, 100, 75);
+	font-size: 1.5rem;
+	color: white;
+	padding: 0.5rem 0.75rem;
+
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.nav-main-item:hover, .nav-main-item:focus, .nav-main-item:active{
+	background-color: rgb(50, 50, 50);
+	color: white;
+}
+
+.main-container{
+	max-width: 63rem;
+	margin: 0 auto;
+	background-color: white;
+	padding: 1rem;
+}
