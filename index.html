@@ -5,24 +5,28 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My First Webpage (About CATS!)</title>
+
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 
 
 
 	<body>
 		<header>
-			<h1>My Most Hideous Page Ever</h1>
+			<h1>My First Webpage (About CATS!)</h1>
 		       
 			<p><strong>Very exciting things are happening.</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 
-			<nav>
-				<a href="#kittens">To the kittens</a>
-				<a href="#jealousy">Why So Jealous</a>
-				<a href="#death">Why are they Death</a>
-				<a href="puppies-page.html">But puppies are cuter</a>
+			<nav class="nav-main">
+				<a class="nav-main-item" href="#">Home</a>
+				<a class="nav-main-item" href="#kittens">To the kittens</a>
+				<a class="nav-main-item" href="#jealousy">Why So Jealous</a>
+				<a class="nav-main-item" href="#death">Why are they Death</a>
+				<a class="nav-main-item" href="puppies-page.html">But puppies are cuter</a>
 			</nav>
 		</header>
 
+		<div class="main-container">
 		<section id="kittens">
 			<a href="http://placekitten.com"><h2>Kittens are da cutest!</h2></a>
 
@@ -38,7 +42,6 @@
 			</ol>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-
 		</section>
 
 		<section id="jealousy">
@@ -47,7 +50,6 @@
 			<img src="jealous-cat.jpg" alt="A black cat staring at a cup with a black cat printed on it. He wants to break it" width="800" height="600">
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-
 		</section>
 
 
@@ -57,8 +59,8 @@
 			<img src="cat-of-doom.jpeg" alt="A lurking goblin cat whose eyes gloq like the fires of hell" width="640" height="866">
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-
 		</section>
+		</div><!-- end of .main-container -->
 
 
 
